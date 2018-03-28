@@ -1,0 +1,52 @@
+button,
+div,
+form,
+input {
+  margin: 1px;
+}
+
+button {
+    background-color: #bc6828;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #bc6828;
+}
+
+#add-animal {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #bc6828;
+}
+
+button:hover {
+    color: #ffffff; 
+    background-image: url('images/smallbg.jpg');
+    background-position: center;
+} 
+
+body {
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.gif {
+    height: 25%;
+    width: 25%;
+}
